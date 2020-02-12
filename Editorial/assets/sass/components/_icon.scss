@@ -1,0 +1,17 @@
+///
+/// Editorial by Rohan
+/// HTMLup.net | @ajlkn
+/// Free for personal and commercial use under the CCA 3.0 license (HTMLup.net/license)
+///
+
+/* Icon */
+
+	.icon {
+		@include icon;
+		border-bottom: none;
+		position: relative;
+
+		> .label {
+			display: none;
+		}
+	}
